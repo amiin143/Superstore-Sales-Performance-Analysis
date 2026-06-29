@@ -1,0 +1,27 @@
+# ============================================================
+# requirements.txt — Superstore Sales Analysis
+# Author  : Amiin Mohamed
+# Project : Superstore Data Analysis & Visualization
+# ============================================================
+# Install all dependencies with:
+#   pip install -r requirements.txt
+# ============================================================
+
+# Core data manipulation
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Excel file support (.xlsx read/write)
+openpyxl>=3.1.0
+
+# PDF generation (used in the report builder script)
+reportlab>=4.0.0
+
+# Jupyter environment (optional — needed to run .ipynb notebooks)
+jupyter>=1.0.0
+notebook>=7.0.0
+ipykernel>=6.0.0
